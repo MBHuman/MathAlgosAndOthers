@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Discrete_algo.dir/main.cpp.obj"
-  "Discrete_algo.exe"
-  "Discrete_algo.exe.manifest"
-  "Discrete_algo.lib"
+  "CMakeFiles/Discrete_algo.dir/main.cpp.o"
+  "Discrete_algo"
   "Discrete_algo.pdb"
 )
 
