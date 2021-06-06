@@ -142,13 +142,93 @@ Discrete_algo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/build
 .PHONY : Discrete_algo/fast
 
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
+#=============================================================================
+# Target rules for targets named Train
+
+# Build rule for target.
+Train: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Train
+.PHONY : Train
+
+# fast build rule for target.
+Train/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/build
+.PHONY : Train/fast
+
+DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.o: DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o
+
+.PHONY : DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.o
+
+# target to build an object file
+DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o
+.PHONY : DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o
+
+DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.i: DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.i
+
+.PHONY : DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.i
+
+# target to preprocess a source file
+DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.i
+.PHONY : DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.i
+
+DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.s: DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.s
+
+.PHONY : DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.s
+
+# target to generate assembly for a file
+DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.s
+.PHONY : DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.s
+
+DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.o: DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o
+
+.PHONY : DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.o
+
+# target to build an object file
+DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o
+.PHONY : DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o
+
+DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.i: DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.i
+
+.PHONY : DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.i
+
+# target to preprocess a source file
+DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.i
+.PHONY : DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.i
+
+DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.s: DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.s
+
+.PHONY : DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.s
+
+# target to generate assembly for a file
+DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.s
+.PHONY : DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -157,7 +237,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -166,8 +246,38 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/test.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/test.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/test.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -178,9 +288,20 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Discrete_algo"
+	@echo "... Test"
+	@echo "... Train"
+	@echo "... DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.o"
+	@echo "... DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.i"
+	@echo "... DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.s"
+	@echo "... DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.o"
+	@echo "... DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.i"
+	@echo "... DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

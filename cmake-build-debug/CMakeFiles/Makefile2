@@ -73,6 +73,8 @@ CMAKE_BINARY_DIR = /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-bui
 
 # The main recursive "all" target.
 all: CMakeFiles/Discrete_algo.dir/all
+all: CMakeFiles/Test.dir/all
+all: CMakeFiles/Train.dir/all
 
 .PHONY : all
 
@@ -83,6 +85,8 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Discrete_algo.dir/clean
+clean: CMakeFiles/Test.dir/clean
+clean: CMakeFiles/Train.dir/clean
 
 .PHONY : clean
 
@@ -93,12 +97,12 @@ clean: CMakeFiles/Discrete_algo.dir/clean
 CMakeFiles/Discrete_algo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Discrete_algo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target Discrete_algo"
 .PHONY : CMakeFiles/Discrete_algo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Discrete_algo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Discrete_algo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Discrete_algo.dir/rule
@@ -112,6 +116,60 @@ Discrete_algo: CMakeFiles/Discrete_algo.dir/rule
 CMakeFiles/Discrete_algo.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Discrete_algo.dir/build.make CMakeFiles/Discrete_algo.dir/clean
 .PHONY : CMakeFiles/Discrete_algo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Test.dir
+
+# All Build rule for target.
+CMakeFiles/Test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target Test"
+.PHONY : CMakeFiles/Test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Test.dir/rule
+
+# Convenience name for target.
+Test: CMakeFiles/Test.dir/rule
+
+.PHONY : Test
+
+# clean rule for target.
+CMakeFiles/Test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/clean
+.PHONY : CMakeFiles/Test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Train.dir
+
+# All Build rule for target.
+CMakeFiles/Train.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target Train"
+.PHONY : CMakeFiles/Train.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Train.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Train.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Train.dir/rule
+
+# Convenience name for target.
+Train: CMakeFiles/Train.dir/rule
+
+.PHONY : Train
+
+# clean rule for target.
+CMakeFiles/Train.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/clean
+.PHONY : CMakeFiles/Train.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Train"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Discrete_algo">
+				<Option output="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Discrete_algo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 Discrete_algo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Discrete_algo/fast">
+				<Option output="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Discrete_algo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 Discrete_algo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Train">
+				<Option output="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Train" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 Train"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Train/fast">
+				<Option output="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Train" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 Train/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp">
+			<Option target="Discrete_algo"/>
+		</Unit>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.h">
+			<Option target="Discrete_algo"/>
+		</Unit>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp">
+			<Option target="Discrete_algo"/>
+		</Unit>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.h">
+			<Option target="Discrete_algo"/>
+		</Unit>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/main.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp">
+			<Option target="Discrete_algo"/>
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

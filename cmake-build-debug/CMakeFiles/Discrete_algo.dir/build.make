@@ -76,30 +76,60 @@ include CMakeFiles/Discrete_algo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Discrete_algo.dir/flags.make
 
-CMakeFiles/Discrete_algo.dir/main.cpp.o: CMakeFiles/Discrete_algo.dir/flags.make
-CMakeFiles/Discrete_algo.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Discrete_algo.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Discrete_algo.dir/main.cpp.o -c /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/main.cpp
+CMakeFiles/Discrete_algo.dir/test.cpp.o: CMakeFiles/Discrete_algo.dir/flags.make
+CMakeFiles/Discrete_algo.dir/test.cpp.o: ../test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Discrete_algo.dir/test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Discrete_algo.dir/test.cpp.o -c /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp
 
-CMakeFiles/Discrete_algo.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Discrete_algo.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/main.cpp > CMakeFiles/Discrete_algo.dir/main.cpp.i
+CMakeFiles/Discrete_algo.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Discrete_algo.dir/test.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp > CMakeFiles/Discrete_algo.dir/test.cpp.i
 
-CMakeFiles/Discrete_algo.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Discrete_algo.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/main.cpp -o CMakeFiles/Discrete_algo.dir/main.cpp.s
+CMakeFiles/Discrete_algo.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Discrete_algo.dir/test.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp -o CMakeFiles/Discrete_algo.dir/test.cpp.s
+
+CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o: CMakeFiles/Discrete_algo.dir/flags.make
+CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o: ../DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o -c /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp
+
+CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp > CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.i
+
+CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp -o CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.s
+
+CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o: CMakeFiles/Discrete_algo.dir/flags.make
+CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o: ../DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o -c /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp
+
+CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp > CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.i
+
+CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp -o CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.s
 
 # Object files for target Discrete_algo
 Discrete_algo_OBJECTS = \
-"CMakeFiles/Discrete_algo.dir/main.cpp.o"
+"CMakeFiles/Discrete_algo.dir/test.cpp.o" \
+"CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o" \
+"CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o"
 
 # External object files for target Discrete_algo
 Discrete_algo_EXTERNAL_OBJECTS =
 
-Discrete_algo: CMakeFiles/Discrete_algo.dir/main.cpp.o
+Discrete_algo: CMakeFiles/Discrete_algo.dir/test.cpp.o
+Discrete_algo: CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o
+Discrete_algo: CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o
 Discrete_algo: CMakeFiles/Discrete_algo.dir/build.make
 Discrete_algo: CMakeFiles/Discrete_algo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Discrete_algo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Discrete_algo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Discrete_algo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

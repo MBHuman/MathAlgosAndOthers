@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/main.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/main.cpp.o"
+  "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o"
+  "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o"
+  "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

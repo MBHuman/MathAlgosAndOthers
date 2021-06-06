@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/SecondHuffman.h
+iostream
+-
+map
+-
+set
+-
+vector
+-
+algorithm
+-
+
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp
+iostream
+-
+DiscreteMath/CompressionAlgos/HuffmanAlgo/SecondHuffman.h
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/SecondHuffman.h
+

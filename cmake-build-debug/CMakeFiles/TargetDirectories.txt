@@ -1,3 +1,5 @@
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Test.dir
 /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Train.dir
