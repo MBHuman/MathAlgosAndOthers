@@ -79,17 +79,38 @@ CMakeFiles\Discrete_algo.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Discrete_algo.dir\main.cpp.s /c C:\Users\zenka\Documents\DataSciense\GitHub\MathAlgosAndOthers\main.cpp
 <<
 
+CMakeFiles\Discrete_algo.dir\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.obj: CMakeFiles\Discrete_algo.dir\flags.make
+CMakeFiles\Discrete_algo.dir\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.obj: ..\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zenka\Documents\DataSciense\GitHub\MathAlgosAndOthers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Discrete_algo.dir\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.obj /FdCMakeFiles\Discrete_algo.dir\ /FS -c C:\Users\zenka\Documents\DataSciense\GitHub\MathAlgosAndOthers\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp
+<<
+
+CMakeFiles\Discrete_algo.dir\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\Discrete_algo.dir\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zenka\Documents\DataSciense\GitHub\MathAlgosAndOthers\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp
+<<
+
+CMakeFiles\Discrete_algo.dir\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Discrete_algo.dir\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.s /c C:\Users\zenka\Documents\DataSciense\GitHub\MathAlgosAndOthers\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp
+<<
+
 # Object files for target Discrete_algo
 Discrete_algo_OBJECTS = \
-"CMakeFiles\Discrete_algo.dir\main.cpp.obj"
+"CMakeFiles\Discrete_algo.dir\main.cpp.obj" \
+"CMakeFiles\Discrete_algo.dir\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.obj"
 
 # External object files for target Discrete_algo
 Discrete_algo_EXTERNAL_OBJECTS =
 
 Discrete_algo.exe: CMakeFiles\Discrete_algo.dir\main.cpp.obj
+Discrete_algo.exe: CMakeFiles\Discrete_algo.dir\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.obj
 Discrete_algo.exe: CMakeFiles\Discrete_algo.dir\build.make
 Discrete_algo.exe: CMakeFiles\Discrete_algo.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zenka\Documents\DataSciense\GitHub\MathAlgosAndOthers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Discrete_algo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zenka\Documents\DataSciense\GitHub\MathAlgosAndOthers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Discrete_algo.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Discrete_algo.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Discrete_algo.dir\objects1.rsp @<<
  /out:Discrete_algo.exe /implib:Discrete_algo.lib /pdb:C:\Users\zenka\Documents\DataSciense\GitHub\MathAlgosAndOthers\cmake-build-debug\Discrete_algo.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

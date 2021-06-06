@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/zenka/Documents/DataSciense/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.cpp">
+			<Option target="Discrete_algo"/>
+		</Unit>
+		<Unit filename="C:/Users/zenka/Documents/DataSciense/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.h">
+			<Option target="Discrete_algo"/>
+		</Unit>
 		<Unit filename="C:/Users/zenka/Documents/DataSciense/GitHub/MathAlgosAndOthers/main.cpp">
 			<Option target="Discrete_algo"/>
 		</Unit>

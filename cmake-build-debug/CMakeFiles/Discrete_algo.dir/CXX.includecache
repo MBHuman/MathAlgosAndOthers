@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/zenka/Documents/DataSciense/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.h
+iostream
+-
+map
+-
+set
+-
+vector
+-
+algorithm
+-
+
 C:/Users/zenka/Documents/DataSciense/GitHub/MathAlgosAndOthers/main.cpp
 iostream
 -
+DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.h
+C:/Users/zenka/Documents/DataSciense/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.h
 

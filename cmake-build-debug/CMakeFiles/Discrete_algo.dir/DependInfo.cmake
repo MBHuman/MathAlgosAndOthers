@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/zenka/Documents/DataSciense/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.cpp" "C:/Users/zenka/Documents/DataSciense/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.cpp.obj"
   "C:/Users/zenka/Documents/DataSciense/GitHub/MathAlgosAndOthers/main.cpp" "C:/Users/zenka/Documents/DataSciense/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

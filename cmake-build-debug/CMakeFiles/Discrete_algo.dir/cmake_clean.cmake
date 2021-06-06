@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.cpp.obj"
   "CMakeFiles/Discrete_algo.dir/main.cpp.obj"
   "Discrete_algo.exe"
   "Discrete_algo.exe.manifest"

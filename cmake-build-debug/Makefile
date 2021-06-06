@@ -126,6 +126,33 @@ Discrete_algo\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Discrete_algo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Discrete_algo.dir\build
 .PHONY : Discrete_algo\fast
 
+DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.obj: DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.obj
+
+.PHONY : DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.obj
+
+# target to build an object file
+DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Discrete_algo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Discrete_algo.dir\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.obj
+.PHONY : DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.obj
+
+DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.i: DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.i
+
+.PHONY : DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.i
+
+# target to preprocess a source file
+DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Discrete_algo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Discrete_algo.dir\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.i
+.PHONY : DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.i
+
+DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.s: DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.s
+
+.PHONY : DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.s
+
+# target to generate assembly for a file
+DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Discrete_algo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Discrete_algo.dir\DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.s
+.PHONY : DiscreteMath\CompressionAlgos\HuffmanAlgo\Huffman.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -162,6 +189,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Discrete_algo
+	@echo ... DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.obj
+	@echo ... DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.i
+	@echo ... DiscreteMath/CompressionAlgos/HuffmanAlgo/Huffman.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
