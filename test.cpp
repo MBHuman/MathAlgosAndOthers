@@ -3,8 +3,8 @@
 //
 
 #include <iostream>
-#include "DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.h"
-//#include "CS/Algos/Sort/radix_sort/RadixSort.h"
+#include "DiscreteMath/CompressionAlgos/HuffmanTree.h"
+#include "DiscreteMath/CompressionAlgos/LZW.h"
 #include <map>
 #include <algorithm>
 #include <vector>
@@ -12,43 +12,16 @@
 using namespace std;
 
 
-
-//
-//struct Node {
-//    Node * left;
-//    Node * right;
-//    int value;
-//};
-//
-//class VectorList {
-//public:
-//    VectorList() {
-//        list.reserve(10);
-//    }
-//    void insert(int value) {
-//        if(last == list.size()) {
-//            vector<int> new_list;
-//            new_list.reserve(list.size() * 2);
-//            for(int i = 0; i< list.size(); ++i) {
-//                new_list[i] = list[i];
-//            }
-//            list = new_list;
-//        }
-//        list[last] = value;
-//        last++;
-//    }
-//private:
-//    vector<int> list;
-//    int last = 0;
-//};
-
-
 int main() {
     string s; cin >> s;
-    HuffmanTree algo(s);
-    auto codes = algo.getCodes();
-    for(auto code : codes) {
-        cout << code.first << " " << code.second << endl;
+    LZW lzw;
+    vector<int> compressed;
+    lzw.compress(s, std::back_inserter(compressed));
+    for(auto u : compressed) {
+        cout << u << endl;
     }
+    string nw;
+    nw = lzw.decompress(compressed.begin(), compressed.end());
+    cout << nw << endl;
     return 0;
 }

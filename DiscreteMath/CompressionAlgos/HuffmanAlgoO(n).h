@@ -2,15 +2,15 @@
 // Created by Евгений Дмитриев on 06.06.2021.
 //
 
-#ifndef TRAIN_HUFFMANALGO_H
-#define TRAIN_HUFFMANALGO_H
+#ifndef TRAIN_HUFFMANALGOO_N_H
+#define TRAIN_HUFFMANALGOO_N_H
 
 #include <vector>
 #include <map>
 
 using namespace std;
 
-class HuffmanAlgo {
+class HuffmanAlgoO {
 public:
     pair<vector<int>, int> HuffmanCoding(vector<int> a) {
         int n = a.size();
@@ -49,4 +49,4 @@ private:
 };
 
 
-#endif //TRAIN_HUFFMANALGO_H
+#endif //TRAIN_HUFFMANALGOO_N_H

@@ -89,107 +89,17 @@ CMakeFiles/Discrete_algo.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Discrete_algo.dir/test.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp -o CMakeFiles/Discrete_algo.dir/test.cpp.s
 
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.o: CMakeFiles/Discrete_algo.dir/flags.make
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.o: ../DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.o -c /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp > CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.i
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp -o CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.s
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.o: CMakeFiles/Discrete_algo.dir/flags.make
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.o: ../DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.o" -c "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp"
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp" > "CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.i"
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp" -o "CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.s"
-
-CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.o: CMakeFiles/Discrete_algo.dir/flags.make
-CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.o: ../CS/Algos/Sort/radix_sort/RadixSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.o -c /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/CS/Algos/Sort/radix_sort/RadixSort.cpp
-
-CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/CS/Algos/Sort/radix_sort/RadixSort.cpp > CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.i
-
-CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/CS/Algos/Sort/radix_sort/RadixSort.cpp -o CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.s
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.o: CMakeFiles/Discrete_algo.dir/flags.make
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.o: ../DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.o -c /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp > CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.i
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp -o CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.s
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.o: CMakeFiles/Discrete_algo.dir/flags.make
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.o: ../DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.o -c /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp > CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.i
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp -o CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.s
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.o: CMakeFiles/Discrete_algo.dir/flags.make
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.o: ../DiscreteMath/CompressionAlgos/LZW/LZW.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.o -c /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZW/LZW.cpp
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZW/LZW.cpp > CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.i
-
-CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZW/LZW.cpp -o CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.s
-
 # Object files for target Discrete_algo
 Discrete_algo_OBJECTS = \
-"CMakeFiles/Discrete_algo.dir/test.cpp.o" \
-"CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.o" \
-"CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.o" \
-"CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.o" \
-"CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.o" \
-"CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.o" \
-"CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.o"
+"CMakeFiles/Discrete_algo.dir/test.cpp.o"
 
 # External object files for target Discrete_algo
 Discrete_algo_EXTERNAL_OBJECTS =
 
 Discrete_algo: CMakeFiles/Discrete_algo.dir/test.cpp.o
-Discrete_algo: CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.o
-Discrete_algo: CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.o
-Discrete_algo: CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.o
-Discrete_algo: CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.o
-Discrete_algo: CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.o
-Discrete_algo: CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.o
 Discrete_algo: CMakeFiles/Discrete_algo.dir/build.make
 Discrete_algo: CMakeFiles/Discrete_algo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Discrete_algo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Discrete_algo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Discrete_algo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

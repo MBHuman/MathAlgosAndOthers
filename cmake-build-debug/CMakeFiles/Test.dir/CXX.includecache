@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.h
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanTree.h
 memory
 -
 algorithm
@@ -21,18 +21,32 @@ map
 -
 stdexcept
 -
-Node.h
-/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.h
 
-/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.h
-memory
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZW.h
+string
+-
+map
+-
+iostream
+-
+fstream
+-
+sstream
+-
+iterator
+-
+vector
+-
+algorithm
 -
 
 /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp
 iostream
 -
-DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.h
-/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.h
+DiscreteMath/CompressionAlgos/HuffmanTree.h
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanTree.h
+DiscreteMath/CompressionAlgos/LZW.h
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZW.h
 map
 -
 algorithm
