@@ -6,21 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/SecondHuffman.h
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp
 iostream
 -
 map
 -
-set
--
-vector
+list
 -
 algorithm
 -
-
-/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp
-iostream
+vector
 -
-DiscreteMath/CompressionAlgos/HuffmanAlgo/SecondHuffman.h
-/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/SecondHuffman.h
 

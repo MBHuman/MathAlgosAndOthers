@@ -1,6 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.o"
+  "CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.o"
   "CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o"
   "CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o"
+  "CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.o"
+  "CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.o"
+  "CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.o"
   "CMakeFiles/Discrete_algo.dir/test.cpp.o"
   "Discrete_algo"
   "Discrete_algo.pdb"
