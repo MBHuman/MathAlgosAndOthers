@@ -176,13 +176,7 @@
 		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.h">
 			<Option target="Discrete_algo"/>
 		</Unit>
-		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp">
-			<Option target="Discrete_algo"/>
-		</Unit>
 		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.h">
-			<Option target="Discrete_algo"/>
-		</Unit>
-		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp">
 			<Option target="Discrete_algo"/>
 		</Unit>
 		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.h">
@@ -204,6 +198,12 @@
 			<Option target="Discrete_algo"/>
 		</Unit>
 		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZ78/LZ78.h">
+			<Option target="Discrete_algo"/>
+		</Unit>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZW/LZW.cpp">
+			<Option target="Discrete_algo"/>
+		</Unit>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZW/LZW.h">
 			<Option target="Discrete_algo"/>
 		</Unit>
 		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/main.cpp">

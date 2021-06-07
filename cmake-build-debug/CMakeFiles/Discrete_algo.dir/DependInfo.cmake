@@ -6,11 +6,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/CS/Algos/Sort/radix_sort/RadixSort.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/CS/Algos/Sort/radix_sort/RadixSort.cpp.o"
   "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/Hu-Tucker/HuTucker.cpp.o"
-  "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.cpp.o"
-  "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.cpp.o"
   "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/HuffmanAlgoO(n)/HuffmanAlgo.cpp.o"
   "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ77/LZ77.cpp.o"
   "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZ78/LZ78.cpp.o"
+  "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZW/LZW.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/DiscreteMath/CompressionAlgos/LZW/LZW.cpp.o"
   "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp" "/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/cmake-build-debug/CMakeFiles/Discrete_algo.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

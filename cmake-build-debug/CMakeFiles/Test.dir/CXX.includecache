@@ -6,12 +6,34 @@
 
 #IncludeRegexTransform: 
 
-/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.h
+memory
+-
+algorithm
+-
+vector
+-
+sstream
+-
 iostream
 -
 map
 -
-list
+stdexcept
+-
+Node.h
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.h
+
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/Node.h
+memory
+-
+
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp
+iostream
+-
+DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.h
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuffmanAlgo/HuffmanTree.h
+map
 -
 algorithm
 -
