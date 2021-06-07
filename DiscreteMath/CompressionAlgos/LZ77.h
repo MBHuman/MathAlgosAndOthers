@@ -10,7 +10,7 @@
 
 using namespace std;
 
-struct Node {
+struct NodeLZ77 {
     int offset;
     int length;
     char next;
@@ -19,8 +19,8 @@ struct Node {
 
 class LZ77 {
 public:
-    vector<Node> encodeLZ77(string s) {
-        vector<Node> ans;
+    vector<NodeLZ77> encodeLZ77(string s) {
+        vector<NodeLZ77> ans;
         encoding = s;
         current_pos = 0;
         int pos = 0;
@@ -29,7 +29,7 @@ public:
             int offset = temp[0], length = temp[1];
             shiftBuffer(length + 1);
             pos += length;
-            Node temp2;
+            NodeLZ77 temp2;
             temp2.offset = offset;
             temp2.length = length;
             temp2.next = s[pos];
@@ -37,7 +37,7 @@ public:
         }
         return ans;
     }
-    string decodeLZ77(vector<Node> encoded) {
+    string decodeLZ77(vector<NodeLZ77> encoded) {
         string ans = "";
         for(auto node : encoded) {
             if(node.length > 0) {

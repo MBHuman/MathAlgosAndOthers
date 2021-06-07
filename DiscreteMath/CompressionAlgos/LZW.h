@@ -30,7 +30,7 @@ public:
         // Build the dictionary.
         int dictSize = 256;
         std::map<std::string,int> dictionary;
-        for (int i = 0; i < 256; i++)
+        for (int i = 0; i < dictSize; i++)
             dictionary[std::string(1, i)] = i;
 
         string w;
@@ -67,7 +67,7 @@ public:
         // Build the dictionary.
         int dictSize = 256;
         std::map<int,std::string> dictionary;
-        for (int i = 0; i < 256; i++)
+        for (int i = 0; i < dictSize; i++)
             dictionary[i] = std::string(1, i);
 
         string w(1, *begin++);

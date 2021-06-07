@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include "DiscreteMath/CompressionAlgos/HuffmanTree.h"
-#include "DiscreteMath/CompressionAlgos/LZW.h"
+#include "DiscreteMath/CompressionAlgos/LZMA.h"
 #include <map>
 #include <algorithm>
 #include <vector>
@@ -13,15 +13,12 @@ using namespace std;
 
 
 int main() {
+    LZMA lzma;
     string s; cin >> s;
-    LZW lzw;
-    vector<int> compressed;
-    lzw.compress(s, std::back_inserter(compressed));
-    for(auto u : compressed) {
-        cout << u << endl;
+    vector<char> word;
+    for(auto u : s) {
+        word.push_back(u);
     }
-    string nw;
-    nw = lzw.decompress(compressed.begin(), compressed.end());
-    cout << nw << endl;
+    lzma.deltaEncode(word, word.size());
     return 0;
 }

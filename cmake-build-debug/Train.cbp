@@ -182,6 +182,12 @@
 		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZ78.h">
 			<Option target="Discrete_algo"/>
 		</Unit>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZMA.h">
+			<Option target="Discrete_algo"/>
+		</Unit>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZSS.h">
+			<Option target="Discrete_algo"/>
+		</Unit>
 		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/LZW.h">
 			<Option target="Discrete_algo"/>
 		</Unit>
