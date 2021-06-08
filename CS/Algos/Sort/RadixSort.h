@@ -14,10 +14,12 @@
 #include <sys/time.h>
 #include <vector>
 
+
+template<typename T>
 class RadixSort {
 public:
 
-    void insertion_sort(std::vector<int> &array, int offset, int end) {
+    void insertion_sort(std::vector<T> &array, int offset, int end) {
         int x, y, temp;
         for (x=offset; x<end; ++x) {
             for (y=x; y>offset && array[y-1]>array[y]; y--) {
@@ -28,7 +30,7 @@ public:
         }
     }
 
-    void radix_sort(std::vector<int> &array, int offset, int end, int shift) {
+    void radix_sort(std::vector<T> &array, int offset, int end, int shift) {
         int x, y, value, temp;
         int last[256] = { 0 }, pointer[256];
 

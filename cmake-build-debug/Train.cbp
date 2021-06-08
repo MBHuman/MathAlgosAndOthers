@@ -167,6 +167,9 @@
 		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/CS/Algos/Sort/RadixSort.h">
 			<Option target="Discrete_algo"/>
 		</Unit>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/BWT.h">
+			<Option target="Discrete_algo"/>
+		</Unit>
 		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/DiscreteMath/CompressionAlgos/HuTucker.h">
 			<Option target="Discrete_algo"/>
 		</Unit>
