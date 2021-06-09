@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/CS/Structures/BinaryHeap.h
+iostream
+-
+vector
+-
+
 /Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/test.cpp
 iostream
 -
+CS/Structures/BinaryHeap.h
+/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/CS/Structures/BinaryHeap.h
 map
 -
 algorithm
