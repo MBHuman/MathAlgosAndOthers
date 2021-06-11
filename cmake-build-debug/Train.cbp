@@ -176,6 +176,9 @@
 		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/CS/Structures/FibHeap.h">
 			<Option target="Discrete_algo"/>
 		</Unit>
+		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/CS/Structures/ThickTree.h">
+			<Option target="Discrete_algo"/>
+		</Unit>
 		<Unit filename="/Users/dmitriev/Documents/GitHub/MathAlgosAndOthers/CS/Structures/ThinHeap.h">
 			<Option target="Discrete_algo"/>
 		</Unit>
